@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/posts"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="141dp"
+        android:layout_marginStart="90dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/maps"
+        android:layout_marginStart="35dp"
+        android:text="Chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:id="@+id/financial_support"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/chat"
+        android:layout_marginTop="222dp"
+        android:text="Donate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="83dp"
+        android:text="Maps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="#aa0022"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/bananaButton"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:onClick="triggerAlarm"-->
+            <!--android:text="@string/notification_title"-->
+            <!--tools:ignore="OnClick" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/notificationCountLabel"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="24sp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:text="@string/ticker_count_label"-->
+            <!--android:gravity="center"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/notificationCount"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="24sp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:gravity="center"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+</RelativeLayout>
+

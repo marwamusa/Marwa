@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mapType" android:title="نوع الخريطة">
+        <menu>
+            <item android:id="@+id/hybrid" android:title="Hybrid"/>
+            <item android:id="@+id/normal" android:title="Normal"/>
+            <item android:id="@+id/terrain" android:title="Terrain"/>
+            <item android:id="@+id/satellite" android:title="Satellite"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/zoomIn" android:title="Zoom In"/>
+    <item android:id="@+id/zoomOut" android:title="Zoom Out"/>
+    <item android:id="@+id/goToGaza" android:title="الذهاب الى غزة"/>
+    <!--<item android:id="@+id/goToLondon" android:title="الذهاب الى لندن"/>
+    <item android:id="@+id/drawPath" android:title="رسم مسار"/>-->
+    <item android:id="@+id/mylocationmarker" android:title="موقعي الحالي"/>
+    <item android:id="@+id/search" android:title="بحث">
+    <menu>
+        <item android:id="@+id/clinics" android:title="العيادات التخصصية"/>
+        <item android:id="@+id/doctors" android:title="أطباء"/>
+        <item android:id="@+id/financial_support" android:title="المؤسسات الداعمة"/>
+        <item android:id="@+id/donners" android:title="أشخاص داعمين"/>
+    </menu>
+    </item>
+
+</menu>

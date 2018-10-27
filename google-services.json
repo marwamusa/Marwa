@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "6942950911",
+    "firebase_url": "https://code4hope-132be.firebaseio.com",
+    "project_id": "code4hope-132be",
+    "storage_bucket": "code4hope-132be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6942950911:android:94c70259efa869b8",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.fcs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6942950911-2bo1ualh785oel7umdjmt6un6hncjqq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy5XzrR8PLpVAOljKUiyAsjv8I8LsG_Uc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
